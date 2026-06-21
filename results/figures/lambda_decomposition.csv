@@ -1,0 +1,5 @@
+Variant,Network RTT [ms],Init Duration [ms],Handler Duration [ms]
+Lambda zip cold,6,613,85
+Lambda container cold,5,646,77
+Lambda zip warm,5,0,77
+Lambda container warm,5,0,76

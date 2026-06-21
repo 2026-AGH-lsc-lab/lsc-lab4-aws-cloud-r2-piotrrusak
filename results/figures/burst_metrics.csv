@@ -1,0 +1,3 @@
+Environment,Throughput [req/s],Avg [ms],p95 [ms],p99 [ms]
+EC2,49.9014,1847.6,2192.6,2551.3
+Fargate,12.8398,7075.9,8007.2,8197.0

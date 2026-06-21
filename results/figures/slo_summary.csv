@@ -1,0 +1,6 @@
+Environment,Burst p99 [ms],Monthly cost [USD]
+EC2,2551.3,16.56
+Fargate,8197.0,17.77
+Lambda zip,703.0,7.04
+Lambda container,820.0,7.04
+Lambda + provisioned concurrency,82.0,133.17

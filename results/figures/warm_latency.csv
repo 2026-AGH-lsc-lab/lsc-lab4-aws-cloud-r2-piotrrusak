@@ -1,0 +1,5 @@
+Environment,Warm latency [ms]
+EC2,26.251
+Fargate,23.488
+Lambda zip,52.513
+Lambda container,67.954

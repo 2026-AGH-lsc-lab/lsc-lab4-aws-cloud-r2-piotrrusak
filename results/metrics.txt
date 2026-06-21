@@ -1,0 +1,13 @@
+EC2 warm: 26.251 ms
+Fargate warm: 23.488 ms
+Lambda zip warm: 52.513 ms
+Lambda container warm: 67.954 ms
+
+Lambda zip cold: 79.401 ms
+Lambda container cold: 71.030 ms
+
+EC2 throughput (200 req, c=20): 40.9324 req/s
+Fargate throughput (200 req, c=20): 12.4750 req/s
+
+EC2 burst (500 req, c=100): 49.9014 req/s, avg 1.8476 s, p95 2.1926 s, p99 2.5513 s
+Fargate burst (500 req, c=100): 12.8398 req/s, avg 7.0759 s, p95 8.0072 s, p99 8.1970 s

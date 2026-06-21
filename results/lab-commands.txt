@@ -1,0 +1,248 @@
+    2  git add src/
+    4  python3 src/document_data_extraction/contexts/entity_extractor.py 
+    5  rsync -r /home/piotrrusak/Work/Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+    7  rsync -r /home/piotrrusak/Work/Document-data-extraction/src/ delegateai://home/piotrrusak/Document-data-extraction/src.
+    8  rsync -r /home/piotrrusak/Work/Document-data-extraction/src/ delegateai://home/piotrrusak/Document-data-extraction/src/
+    9  rsync -r /home/piotrrusak/Work/Document-data-extraction/resources/ delegateai://home/piotrrusak/Document-data-extraction/resources/
+   10  rsync -r /home/piotrrusak/Work/Document-data-extraction/src/ delegateai://home/piotrrusak/Document-data-extraction/src/
+   12   source /home/piotrrusak/Work/Document-data-extraction/.venv/bin/activate
+   13   source /home/piotrrusak/Agh/iwisum/.venv/bin/activate
+   15  source .venv/bin/ac
+   16  source .venv/bin/activate
+   21  rm -rf .venv/
+   23  mv /home/piotrrusak/Downloads/voxy_1_21_1_neoforge.patch  .
+   29  ./gradlew build
+   30  sudo ./gradlew build
+   48  ./gradlew build
+   51  grep -R "org.gradle.java.home" ~/.gradle
+   52  sed -i '/^org\.gradle\.java\.home=/d' gradle.properties
+   54  ./gradlew --stop
+   55  ./gradlew build
+   58  ./gradlew build
+   68  mv /home/piotrrusak/Downloads/voxy_1_21_1_neoforge.patch  .
+   76  ./gradlew build
+   82  ./gradlew build
+   83  sed -i '/^org\.gradle\.java\.home=/d' gradle.properties
+   84  ./gradlew build
+   88  ./gradlew build
+   90   source /home/piotrrusak/Agh/iwisum/.venv/bin/activate
+   94   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+   99  source .venv/bin/activate
+  102   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  103   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  107  source .venv/bin/activate
+  110   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  112  rm -rf .venv/
+  114  source .venv/bin/activate
+  118   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  119   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  120   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  121   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  122   source /home/piotrrusak/Agh/iwisum/lab3/.venv/bin/activate
+  123   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  124   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  125   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  126   source /home/piotrrusak/Work/Document-data-extraction/.venv/bin/activate
+  128   source /home/piotrrusak/Work/Document-data-extraction/.venv/bin/activate
+  131  rm -rf .venv/
+  133  rsync -r Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  136  cd Document-data-extraction/
+  150  rsync -r Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  152  rsync -r Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  153  cd Document-data-extraction/
+  165  rsync -r Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  169   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  170   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  173  source .venv/bin/activate
+  176  python3 pi/weak_charts_creator.py 
+  182   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  184  pandoc pi/README.md -o pi/README.pdf
+  186  pandoc pi/README.md -o README.pdf --pdf-engine=xelatex
+  200  zip -r p2p.zip p2p/
+  201  zip -r pi.zip pi/
+  207  zip -r p2p.zip p2p/
+  208   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  214  cd Agh/
+  215  git clone git@github.com:eszlamczyk/environment-of-services-implementation-project.git
+  217  cd environment-of-services-implementation-project/
+  220  rsync -r /home/piotrrusak/Agh/mpr/p2p/ vcluster://home/students/r/u/rusak/mpr/p2p/
+  221  rsync -r vcluster://home/students/r/u/rusak/mpr/p2p/ /home/piotrrusak/Agh/mpr/p2p/
+  222  scp -r vcluster:/home/students/r/u/rusak/mpr/p2p /home/piotrrusak/Agh/mpr/
+  223  scp -r vcluster:/home/students/r/u/rusak/mpr/p2p /home/piotrrusak/Agh/mpr/
+  225  cd Agh/
+  226  cd mpr/
+  231  rm -rf .venv/
+  232  scp -r /home/piotrrusak/Agh/mpr/p2p/ vcluster:/home/students/r/u/rusak/mpr/
+  233  scp -r vcluster:/home/students/r/u/rusak/mpr/p2p /home/piotrrusak/Agh/mpr/
+  234  scp -r vcluster:/home/students/r/u/rusak/mpr/p2p/plots_p2p/ /home/piotrrusak/Agh/mpr/p2p/
+  235  scp vcluster:/home/students/r/u/rusak/mpr/p2p/one_node_send.csv /home/piotrrusak/Agh/mpr/p2p/one_node_send.csv
+  236  scp vcluster:/home/students/r/u/rusak/mpr/p2p/ping_pong_one_node.csv /home/piotrrusak/Agh/mpr/p2p/ping_pong_one_node.csv
+  239   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  240   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  241   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  242   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  243   source /home/piotrrusak/Agh/mpr/.venv/bin/activate
+  245   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  247  cd Document-data-extraction/
+  263  git rm src/document_data_extraction/contexts/context.py 
+  266  git add src/
+  273  git add tests/parser_tests/test_excel_parser.py 
+  280  rsync -av delegateai://home/piotrrusak/Document-data-extraction/ /home/piotrrusak/Work/Document-data-extraction/
+  281  rsync -av --exclude .venv/ delegateai://home/piotrrusak/Document-data-extraction/ /home/piotrrusak/Work/Document-data-extraction/
+  282  cd Work/
+  283  cd Document-data-extraction/
+  291  rsync -av --exclude .venv/ delegateai://home/piotrrusak/Document-data-extraction/ /home/piotrrusak/Work/Document-data-extraction/
+  300  rsync -r delegateai://home/piotrrusak/Document-data-extraction/ /home/piotrrusak/Work/Document-data-extraction/
+  301  rsync -r --exclude .venv/ delegateai://home/piotrrusak/Document-data-extraction/ /home/piotrrusak/Work/Document-data-extraction/
+  302  cd Work/Document-data-extraction/
+  307  rsync -r --exclude .venv/ /home/piotrrusak/Work/Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  308  rsync -av --exclude .venv/ /home/piotrrusak/Work/Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  309  rsync -av --exclude .venv/ /home/piotrrusak/Work/Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  310  rsync -av --exclude .venv/ delegateai://home/piotrrusak/Document-data-extraction /home/piotrrusak/Work/Document-data-extraction/
+  312  alias rsyncpy="rsync -av --exclude '__pycache__/' --exclude '*.pyc' --exclude '.venv/' --exclude 'venv/'"
+  314  git add src/
+  315  git add resources/
+  318  rsync -av delegateai://home/piotrrusak/Document-data-extraction
+  319  rsync -av delegateai://home/piotrrusak/Document-data-extraction /home/piotrrusak/Work/Document-data-extraction/
+  320  rsync -av --exclude .venv/ delegateai://home/piotrrusak/Document-data-extraction /home/piotrrusak/Work/Document-data-extraction/
+  332  cd llm/
+  337  source .venv/bin/activate
+  346  rm -rf .ruff_cache/
+  347  rm llm_agent.egg-info/
+  348  rm -rf llm_agent.egg-info/
+  353  git add llm/pyproject.toml 
+  355  git add llm/main.py 
+  356  git add llm/utils/
+  357  git add llm/.env.example 
+  362  cd llm/
+  380  git add utils/
+  382  git add utils/tools_mapper.py
+  385  git add src/
+  388  git add ../.gitignore 
+  389  git add src/
+  393  git add src/
+  394  rm -rf src/llm_agent.egg-info/
+  396  git add src/llm_agent.egg-info 
+  406  rsync -av -exclude .venv/ /home/piotrrusak/Work/Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  407  rsync -av --exclude .venv/ /home/piotrrusak/Work/Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  410  git add src/document_data_extraction/contexts/extractors/
+  417  git add src/document_data_extraction/
+  434  rsync -av --exclude .venv/ /home/piotrrusak/Work/Document-data-extraction/ delegateai://home/piotrrusak/Document-data-extraction/
+  435   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  441  source .venv/bin/ac
+  442  source .venv/bin/activate
+  444  python3 ex1/data_generator1.py 
+  447  python3 ex1/data_generator1.py 
+  449  python3 ex1/data_generator1.py 
+  451  python3 ex1/data_generator1.py 
+  454  python3 ex1/data_generator1.py 
+  455  python3 ex1/script1.py 
+  456  python3 ex1/data_generator1.py 
+  457   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  458  cd Agh/iwisum/
+  460  cd zips/
+  463  cat ~/.ssh/cof
+  464  cat ~/.ssh/config 
+  467   source /home/piotrrusak/Agh/iwisum/lab4/.venv/bin/activate
+  469  python3 ex1/script1.py 
+  471  source .venv/bin/activate
+  473  python3 ex1/script1.py 
+  476  python3 ex1/script1.py 
+  478  python3 ex1/script1.py 
+  479  python3 ex2/script2.py 
+  480  cd ex2/
+  485  cd ex3/
+  500   source /home/piotrrusak/Agh/iwisum/lab4/.venv/bin/activate
+  502   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  503  zip zad1/
+  504  zip -r zad1.zip zad1/
+  506  cd zad1/
+  507  rm -rf .venv/
+  511  source .venv/bin/ac
+  512  source .venv/bin/activate
+  527  rm -rf .venv/
+  530  rm -rf wykresy/
+  532  source .venv/bin/activate
+  537  rm -rf .venv/
+  538  rm -rf wykresy/
+  541  zip -r zad1.zip zad1/
+  542   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  549  source .venv/bin/activate
+  558  source .venv/bin/activate
+  578  source .venv/bin/activate
+  584  source .venv/bin/activate
+  589   source /home/piotrrusak/Agh/iwisum/lab2/.venv/bin/activate
+  591  git clone git@github.com:2026-AGH-lsc-lab/lsc-lab4-aws-cloud-r2-piotrrusak.git
+  593  cd lsc-lab4-aws-cloud-r2-piotrrusak/
+  596  docker --version
+  598  oha --version
+  599  aws --version
+  601  aws sts get-caller-identity
+  602  aws configure list
+  603  nano ~/.aws/credentials 
+  604  aws sts get-caller-identity
+  605  aws configure list
+  608  ./01-ecr.sh
+  609  ./00-config.sh 
+  611  ./00-config.sh
+  613  ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
+  615  ./00-config.sh
+  616  ./01-ecr.sh
+  617  ./02-lambda.sh
+  618  ./02-lambda-zip.sh 
+  622  ./02-lambda-zip.sh
+  623  ./03-fargate.sh
+  624  ./03-lambda-container.sh 
+  625  ECR_URI="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/lsc-knn-app:latest"
+  626  aws ecr get-login-password --region "$AWS_REGION" | docker login --username AWS --password-stdin "${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
+  628  docker build --platform linux/amd64 --provenance=false -t lsc-knn-app:latest ./workload
+  629  docker tag lsc-knn-app:latest "$ECR_URI"
+  630  docker push "$ECR_URI"
+  632  ./03-lambda-container.sh
+  635  ECR_URI="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/lsc-knn-app:latest"
+  636  aws ecr get-login-password --region "$AWS_REGION" | docker login --username AWS --password-stdin "${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
+  638  docker build --platform linux/amd64 --provenance=false -t lsc-knn-app:latest ./workload
+  639  docker tag lsc-knn-app:latest "$ECR_URI"
+  640  docker push "$ECR_URI"
+  642  ./03-lambda-container.sh
+  643  ./04-fargate.sh
+  644  ./05-ec2-app.sh
+  645  curl -X POST   -H 'Content-Type: application/json'   -d @loadtest/query.json   http://44.192.20.54:8080/search
+  647  piotrrusak@fedora-2:~/Agh/lsc/lsc-lab4-aws-cloud-r2-piotrrusak/deploy$ curl -X POST   -H 'Content-Type: application/json'   -d @loadtest/query.json   http://44.192.20.54:8080/search
+  648  curl: Failed to open loadtest/query.json
+  649  curl: option -d: error encountered when reading a file
+  650  curl: try 'curl --help' for more information
+  651  piotrrusak@fedora-2:~/Agh/lsc/lsc-lab4-aws-cloud-r2-piotrrusak/deploy$ 
+  652  curl -X POST   -H 'Content-Type: application/json'   -d @loadtest/query.json   http://44.192.20.54:8080/search
+  653  curl -X POST   -H 'Content-Type: application/json'   -d @loadtest/query.json   http://lsc-knn-alb-1686022318.us-east-1.elb.amazonaws.com/search
+  654  curl -X POST   -H 'Content-Type: application/json'   -d @loadtest/query.json   https://yztjzlupsknzkpeccldu5rc2di0tsfuw.lambda-url.us-east-1.on.aws/search
+  655  curl --aws-sigv4 "aws:amz:us-east-1:lambda"   --user "$AWS_ACCESS_KEY_ID:$AWS_SECRET_ACCESS_KEY"   -H "x-amz-security-token: $AWS_SESSION_TOKEN"   -H 'Content-Type: application/json'   -d @loadtest/query.json   https://yztjzlupsknzkpeccldu5rc2di0tsfuw.lambda-url.us-east-1.on.aws/search
+  656  aws lambda invoke   --function-name lsc-knn-zip   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file://loadtest/query.json   /tmp/lambda-zip-response.json && cat /tmp/lambda-zip-response.json
+  657  jq -c '{body: (tojson)}' loadtest/query.json > /tmp/lambda-event.json
+  658  cat /tmp/lambda-event.json
+  659  aws lambda invoke   --function-name lsc-knn-zip   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file:///tmp/lambda-event.json   /tmp/lambda-zip-response.json && cat /tmp/lambda-zip-response.json
+  660  aws lambda invoke   --function-name lsc-knn-container   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file:///tmp/lambda-event.json   /tmp/lambda-container-response.json && cat /tmp/lambda-container-response.json
+  662  curl -i -X POST   -H 'Content-Type: application/json'   -d @loadtest/query.json   http://44.192.20.54:8080/search
+  663  curl -i -X POST   -H 'Content-Type: application/json'   -d @loadtest/query.json   http://lsc-knn-alb-1686022318.us-east-1.elb.amazonaws.com/search
+  664  aws lambda invoke   --function-name lsc-knn-zip   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file:///tmp/lambda-event.json   /tmp/lambda-zip-response.json && cat /tmp/lambda-zip-response.json
+  665  aws lambda invoke   --function-name lsc-knn-container   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file:///tmp/lambda-event.json   /tmp/lambda-container-response.json && cat /tmp/lambda-container-response.json
+  666  aws lambda invoke   --function-name lsc-knn-container   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file:///tmp/lambda-event.json   /tmp/lambda-container-response.json && cat /tmp/lambda-container-response.json
+  667  oha -n 200 -c 20 -m POST   -H "Content-Type: application/json"   -D loadtest/query.json   http://44.192.20.54:8080/search
+  668  oha -n 200 -c 20 -m POST   -H "Content-Type: application/json"   -D loadtest/query.json   http://lsc-knn-alb-1686022318.us-east-1.elb.amazonaws.com/search
+  669  for i in {1..50}; do   aws lambda invoke     --function-name lsc-knn-zip     --region us-east-1     --cli-binary-format raw-in-base64-out     --payload file:///tmp/lambda-event.json     /tmp/out.json >/dev/null; done
+  670  cat /tmp/out.json
+  671  for i in {1..50}; do   aws lambda invoke     --function-name lsc-knn-container     --region us-east-1     --cli-binary-format raw-in-base64-out     --payload file:///tmp/lambda-event.json     /tmp/out-container.json >/dev/null; done
+  672  cat /tmp/out-container.json
+  673  oha -n 500 -c 100 -m POST   -H "Content-Type: application/json"   -D loadtest/query.json   http://44.192.20.54:8080/search
+  674  oha -n 500 -c 100 -m POST   -H "Content-Type: application/json"   -D loadtest/query.json   http://lsc-knn-alb-1686022318.us-east-1.elb.amazonaws.com/search
+  676  aws lambda invoke   --function-name lsc-knn-zip   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file:///tmp/lambda-event.json   /tmp/cold.json && cat /tmp/cold.json
+  677  aws lambda invoke   --function-name lsc-knn-container   --region us-east-1   --cli-binary-format raw-in-base64-out   --payload file:///tmp/lambda-event.json   /tmp/cold-container.json && cat /tmp/cold-container.json
+  679  cat > results/metrics.txt <<'EOF'
+EC2 throughput (200 req, c=20): 40.9324 req/s
+Fargate throughput (200 req, c=20): 12.4750 req/s
+EC2 burst (500 req, c=100): 49.9014 req/s, avg 1.8476 s, p95 2.1926 s, p99 2.5513 s
+Fargate burst (500 req, c=100): 12.8398 req/s, avg 7.0759 s, p95 8.0072 s, p99 8.1970 s
+  680  cat results/metrics.txt
+  681  grep -E "LAMBDA_MEMORY|LAMBDA_TIMEOUT|FARGATE|ECS|CPU|MEMORY" deploy/00-config.sh
+  682  grep -nE '"cpu"|"memory"|cpu|memory' deploy/04-fargate.sh
+  683  history | grep -E "aws|docker|oha|curl|./" > results/lab-commands.txt
